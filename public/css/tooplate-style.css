@@ -311,7 +311,7 @@ http://www.tooplate.com/view/2106-soft-landing
   -----------------------------------------*/
 
   #home {
-    background: url('../images/home-bg.jpg') no-repeat center center;
+    background: url('../images/whitney.jpg') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -338,9 +338,13 @@ http://www.tooplate.com/view/2106-soft-landing
     margin-top: 7em;
   }
 
+  .home-info h1 {
+    font-size: 100px;
+  }
+
   .home-info h3 {
     color: #f0f0f0;
-    font-size: 11px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -669,12 +673,12 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .social-icon li a {
-    border-radius: 50px;
-    color: #202020;
-    font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    border-radius: 100px;
+    color: #f5f5f5;
+    font-size: 45px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
     text-decoration: none;
     text-align: center;
     position: relative;
@@ -823,3 +827,15 @@ http://www.tooplate.com/view/2106-soft-landing
       height: 65vh;
     }
   }
+
+  .icon {
+    text-decoration: none;
+    position: relative;
+  }
+
+  .fa-github-square:before{content:"\f092"}
+
+  .fa-github:before{content:"\f09b"}
+
+  .fa-github-alt:before{content:"\f113"}
+
